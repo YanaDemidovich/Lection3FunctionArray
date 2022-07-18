@@ -7,21 +7,21 @@
 // 1-ая группа: не принимает никаких аргументов и не возвращает
 //Вид 1
 
-/* void Metod1()
+/*void Metod1()
 {
     Console.WriteLine("Автор");
 }
-Metod1(); */
+Metod1();
 
 // 2-ая группа: принимает какие-то аргументы, но ничего не возвращает
 // Вид 2
-/*void Metod2(string msg)
+void Metod2(string msg)
 {
     Console.WriteLine(msg);
 }
-Metod2(msg: "Текст сообщения");*/
+Metod2(msg: "Текст сообщения");
 
-/* void Metod21(string msg, int count)
+void Metod21(string msg, int count)
 {
     int i = 0;
     while (i < count)
@@ -30,17 +30,17 @@ Metod2(msg: "Текст сообщения");*/
         i++;
     }
 }
-Metod21(msg: "Текст", count: 4);*/
+Metod21(msg: "Текст", count: 4);
 
 // 3-яя группа: могу что-то возвращать, но не принимает никаких аргументов (например, генератор случайных чисел)
 // Вид 3
 
-/*int Metod3()
+int Metod3()
 {
     return DateTime.Now.Year;
 }
 int year = Metod3();
-Console.WriteLine(year);*/
+Console.WriteLine(year);
 
 // 4-яя группа: что-то принимает и что-то возвращает
 // Вид 4
@@ -58,3 +58,22 @@ string Metod4(int count, string Text)
 }
 string res = Metod4(10, "Текст");
 Console.WriteLine(res);
+
+// Цикл for
+/*for(int i + 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+string Metod4(int count, string Text)
+{
+    string result = String.Empty;
+    for(int i = 0; i < count; i++)
+    {
+        result = result + Text;
+    }
+    return result;
+}
+string res = Metod4(10, "Текст");
+Console.WriteLine(res);
+
