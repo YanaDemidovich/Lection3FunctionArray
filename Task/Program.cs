@@ -111,6 +111,7 @@ for(int i = 2; i <= 10; i++)
 
 // Ясна ли задача?
 
+/*
 string text = "- Я думаю, - сказал князь, улыбаяCь, - что, "
             + "ежели бы вас послали вместо нашего милого Винценгероде,"
             + "вы бы взяли приступом согласие пруCCкого короля. "
@@ -139,4 +140,5 @@ newText = Replace(newText, 'к', 'К');
 Console.WriteLine(newText);
 newText = Replace(newText, 'C', 'c');
 Console.WriteLine(newText);
+*/
 
