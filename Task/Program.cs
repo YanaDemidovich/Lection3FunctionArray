@@ -75,5 +75,5 @@ string Metod4(int count, string Text)
     return result;
 }
 string res = Metod4(10, "Текст");
-Console.WriteLine(res);
+Console.WriteLine(res);*/
 
