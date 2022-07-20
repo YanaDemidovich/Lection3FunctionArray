@@ -77,3 +77,29 @@ string Metod4(int count, string Text)
 string res = Metod4(10, "Текст");
 Console.WriteLine(res);*/
 
+
+//WHILE, FOR и циклы в цикле
+// Пример
+/*
+for(int i = 0; i < 10; i++)
+{
+    for(int j = 0; j < 10; j++)
+    {
+        Console.WriteLine(i*j);
+    }
+}
+Console.WriteLine();
+*/
+
+// Вывод таблицы умножения на экран
+
+/*
+for(int i = 2; i <= 10; i++)
+{
+    for(int j = 2; j <= 10; j++)
+    {
+        Console.WriteLine($"{i} * {j} = {i * j}");
+    }    
+    Console.WriteLine();
+} 
+*/
