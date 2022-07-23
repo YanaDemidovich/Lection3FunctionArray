@@ -50,3 +50,17 @@ double y3 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Ansver is " + Pifagor(x1, y1, x2, y2, x3, y3));*/
 
+// Задача 23
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+/* void Kub(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        Console.Write(i * i * i + " ");
+    }
+}
+
+Console.Write("Input number: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Kub(n); */
