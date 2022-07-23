@@ -51,4 +51,17 @@ QuarterNumber( x);*/
 
 
 // Задача 2. Принимаем число n, а на вывод квадраты чисел от 1 до введенного числа n.
+
+/* void Kvadrat(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        Console.Write(i * i + " ");
+    }
+}
+
+Console.Write("Input number: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Kvadrat(n);*/
+
 // Задача 3. Найти расстояние между двумя точками А и В в плоскости.
