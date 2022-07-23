@@ -65,3 +65,22 @@ int n = Convert.ToInt32(Console.ReadLine());
 Kvadrat(n);*/
 
 // Задача 3. Найти расстояние между двумя точками А и В в плоскости.
+
+/*double Pifagor(double x1, double y1, double x2, double y2)
+
+{
+    double gipotenuza = Math.Sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+    return gipotenuza;
+}
+
+Console.Write("Input x1: ");
+double x1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input y1: ");
+double y1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input x2: ");
+double x2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input y2: ");
+double y2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Ansver is " + Pifagor(x1, y1, x2, y2));*/
+
