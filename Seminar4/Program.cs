@@ -18,7 +18,7 @@ Console.WriteLine("Сумма чисел равна " + FindSum(num));*/
 
 // Задача 1: Принимает число "a"и возвращает кол-во цифр в числе.
 
-/*int Kol(int a)
+/* int Kol(int a)
 {
     int b = 0;
     while(a > 0)
