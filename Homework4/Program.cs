@@ -18,3 +18,18 @@ Console.WriteLine("Сумма цифр в числе равна " + Sum(n1));*/
 
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+/*void Main()
+{
+    
+    int[] array = new int[8];
+    Random myRandom = new Random();
+ 
+    Console.WriteLine("Вывод с помощью for");
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = myRandom.Next(0, 9);
+        Console.Write("{0} ", array[i]);
+    }
+}
+Main();*/
