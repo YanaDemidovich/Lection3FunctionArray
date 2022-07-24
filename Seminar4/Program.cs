@@ -54,3 +54,23 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Факториал = " + Factorial(n));*/
 
 // Задача 3: Принимает 2 числа "a" и "b" и возводит число "a" в натуральную степень "b".
+
+/* int Stepen(int a, int b)
+
+{
+    int i = 1;
+    int c = 1;
+    while(i <= b)
+    {
+        c = c * a;
+        i++;
+    }
+    return c;
+}
+
+Console.Write("Введите первое число: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int n2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Первое число в степени второго равно " + Stepen(n1, n2));*/
