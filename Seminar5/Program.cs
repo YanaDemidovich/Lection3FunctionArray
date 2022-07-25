@@ -30,7 +30,17 @@ int FindPositiveSum(int[] array) // метод поиска суммы поло�
     }
     return sum;
 }
+
+int FindNegativeSum(int[] array) // метод поиска суммы отрицателных чисел
+{
+    int sum = 0;
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(array[i] < 0) sum += array[i]; // проверка на отрицательное число
+    }
+    return sum;
+}
                             // int sise, min, max
 int[] myArray = CreateRandomArray(12, -9, 9); // в () указано 12 элементов, min -9, max 9
 ShowArray(myArray);
-Console.WriteLine("Сумма " + FindPositiveSum(myArray));
+Console.WriteLine("Сумма положительных " + FindPositiveSum(myArray) + " " + "Сумма отрицательных " + FindNegativeSum(myArray));
