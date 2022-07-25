@@ -87,6 +87,42 @@ Print(RechangeArray(myArray));  */
 // Первым аргументом будет массив, вторым число, которое надо найти. 
 // Возвращать будет: индекс соответствующей позиции в массиве, либо ошибку; bool - да/нет
 
+int[] CreateRandomArray(int size, int min, int max) // метод который создает массив
+{
+    int[] array = new int[size];
+    for(int i = 0; i < size; i++)
+    {
+        array[i] = new Random().Next(min, max +1);
+    }
+    return array;
+}
+
+bool IsElementHere(int[] array, int num) // метод поиска заданного числа в массиве
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(array[i] == num) return true; // определяем равен ли элемент i массива заданному числу(элементу) num
+    }
+    return false;
+}
+
+void Print(int[] array) // метод, который выводит массив
+{
+
+    for(int i = 0; i < array.Length; i++) // до тех пор пока "for" (i=0 - первое число массива = индекс 0; пока индекс меньше длинны массива; добавялем +1 шаг)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+int[] myArray = CreateRandomArray(10, 1, 10); // указываем параметры массива: 10 чисел, от 1, до 100
+Print(myArray); // выводим рандомные числа массива
+/*Console.WriteLine("Число присутствует - " + IsElementHere(myArray, 5));*/ // в вызове метода указываем наш заданный массив myArray и необходимое число.
+
+// либо вместо ==Console.WriteLine...== указываем 
+if(IsElementHere(myArray, 5)) Console.WriteLine("Число присутствует!");
+else Console.WriteLine("Число отсутствует!");
 
 // Задача 3. Необходимо задать массив из 20 случайных чисел и найти кол-во элементов массива, значение которых от 9 до 99
 // На вход рандомный массив, на возврат - число (кол-во)
