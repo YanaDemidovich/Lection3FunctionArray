@@ -96,7 +96,7 @@ Rasstoynie();*/
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-void Kub(int n)
+/*void Kub(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -106,11 +106,11 @@ void Kub(int n)
 
 Console.Write("Input number: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Kub(n);
+Kub(n);*/
 
 // или другой вариант решения
 
-/*void Kybs()
+void Kybs()
 {
     Console.WriteLine("Введите число");
     int  number = Convert.ToInt32(Console.ReadLine());
@@ -124,4 +124,4 @@ Kub(n);
         Console.Write (" " + array1[i]);
     }
 }
-Kybs();*/
+Kybs();
