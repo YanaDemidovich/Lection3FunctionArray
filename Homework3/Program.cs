@@ -26,7 +26,7 @@ else
 
 // более правильный вариант
 
-void Palindrom()
+/*void Palindrom()
 {
 Console.Write("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -43,7 +43,7 @@ else
 Console.WriteLine("Число не является палиндроном");
 }
 }
-Palindrom();
+Palindrom();*/
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит
@@ -70,6 +70,28 @@ Console.Write("Input y3: ");
 double y3 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Ansver is " + Pifagor(x1, y1, x2, y2, x3, y3));*/
+
+// более правильное решение
+
+void Rasstoynie()
+{
+    int[] array1 = new int[3];
+    int[] array2 = new int[3];
+    for (int i = 0;i<3;i++)
+    {
+      Console.WriteLine("Введите координату первой точки");
+      array1[i] = Convert.ToInt32(Console.ReadLine());
+    }
+for (int i = 0;i<3;i++)
+{
+    Console.WriteLine("Введите координату второй точки");
+      array2[i] = Convert.ToInt32(Console.ReadLine());
+}
+double result = Math. Sqrt((Math.Pow((array2[0] - array1[0]), 2) + Math.Pow((array2[1] - array1[1]), 2) + Math.Pow((array2[2] - array1[2]), 2)));
+result = Math.Round(result, 2);
+Console.WriteLine("Расстояние между двумя точками = " + result);
+}
+Rasstoynie();
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
