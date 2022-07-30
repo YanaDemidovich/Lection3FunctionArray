@@ -73,7 +73,7 @@ Console.WriteLine("Ansver is " + Pifagor(x1, y1, x2, y2, x3, y3));*/
 
 // более правильное решение
 
-void Rasstoynie()
+/* void Rasstoynie()
 {
     int[] array1 = new int[3];
     int[] array2 = new int[3];
@@ -91,12 +91,12 @@ double result = Math. Sqrt((Math.Pow((array2[0] - array1[0]), 2) + Math.Pow((arr
 result = Math.Round(result, 2);
 Console.WriteLine("Расстояние между двумя точками = " + result);
 }
-Rasstoynie();
+Rasstoynie();*/
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-/* void Kub(int n)
+void Kub(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -106,4 +106,22 @@ Rasstoynie();
 
 Console.Write("Input number: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Kub(n); */
+Kub(n);
+
+// или другой вариант решения
+
+/*void Kybs()
+{
+    Console.WriteLine("Введите число");
+    int  number = Convert.ToInt32(Console.ReadLine());
+    int[] array1 = new int[number];
+    for (int i = 0;i<number;i++)
+    {
+        array1[i] = (i+1) * (i+1) * (i+1);
+    }
+    for (int i = 0;i<number;i++)
+    {
+        Console.Write (" " + array1[i]);
+    }
+}
+Kybs();*/
