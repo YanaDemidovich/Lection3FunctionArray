@@ -22,7 +22,7 @@ else
 // Задача1. Вводим номер четверти координат, на вывод определяем диапазон чисел. 
 // Например: вводим №1, на ввод "х больше 0 и y больше 0"
 
-void QuarterNumber(int quart)
+/* void QuarterNumber(int quart)
 {
     if(quart == 1) Console.WriteLine("x больше 0, y больше 0");
     if(quart == 2) Console.WriteLine("x меньше 0, y больше 0");
@@ -33,7 +33,7 @@ void QuarterNumber(int quart)
 Console.Write("Input quarter: ");
 int quart = Convert.ToInt32(Console.ReadLine());
 
-QuarterNumber(quart);
+QuarterNumber(quart);*/
 // === или ===
 /*void QuarterNumber(int x)
 {
@@ -51,7 +51,7 @@ QuarterNumber( x);*/
 
 // Задача 2. Принимаем число n, а на вывод квадраты чисел от 1 до введенного числа n.
 
-/* void Kvadrat(int n)
+void Kvadrat(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -61,7 +61,7 @@ QuarterNumber( x);*/
 
 Console.Write("Input number: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Kvadrat(n);*/
+Kvadrat(n);
 
 // Задача 3. Найти расстояние между двумя точками А и В в плоскости.
 
