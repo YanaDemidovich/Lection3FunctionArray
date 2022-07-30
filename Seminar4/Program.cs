@@ -1,6 +1,6 @@
 ﻿// Принимает на вход число "a" и возвращает сумму чисел от 1 до "a".
 
-/* int FindSum(int a)
+int FindSum(int a)
 {
     int current = 1, sum = 0;
     while(current <= a)
@@ -14,11 +14,11 @@
 Console.Write("Введите целое положительное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Сумма чисел равна " + FindSum(num));*/
+Console.WriteLine("Сумма чисел равна " + FindSum(num));
 
 // Задача 1: Принимает число "a"и возвращает кол-во цифр в числе.
 
-/* int Kol(int a)
+int Kol(int a)
 {
     int b = 0;
     while(a > 0)
@@ -32,12 +32,12 @@ Console.WriteLine("Сумма чисел равна " + FindSum(num));*/
 Console.Write("Введите целое положительное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Количество цифр " + Kol(a));*/
+Console.WriteLine("Количество цифр " + Kol(a));
 
 
 // Задача 2: Принимает число "n" и выдаст произведение чисел от 1 до "n" (факториал)
 
-/* int Factorial(int a)
+int Factorial(int a)
 {
     int current = 1, f = 1;
     while(current <= a)
@@ -51,11 +51,11 @@ Console.WriteLine("Количество цифр " + Kol(a));*/
 Console.Write("Введите целое положительное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Факториал = " + Factorial(n));*/
+Console.WriteLine("Факториал = " + Factorial(n));
 
 // Задача 3: Принимает 2 числа "a" и "b" и возводит число "a" в натуральную степень "b".
 
-/* int Stepen(int a, int b)
+int Stepen(int a, int b)
 
 {
     int i = 1;
@@ -73,4 +73,4 @@ int n1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int n2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Первое число в степени второго равно " + Stepen(n1, n2));*/
+Console.WriteLine("Первое число в степени второго равно " + Stepen(n1, n2));
