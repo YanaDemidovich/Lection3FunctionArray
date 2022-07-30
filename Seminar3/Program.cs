@@ -1,5 +1,5 @@
 ﻿// ====== К какой четверти относится заданная координата? ======
-int FindQuart(int x, int y)
+/* int FindQuart(int x, int y)
 {
     if(x > 0 && y > 0) return 1;
     if(x < 0 && y > 0) return 2;
@@ -17,12 +17,12 @@ int quart = FindQuart(x,y);
 if (quart == -1)
     Console.WriteLine("Point on the axes!");
 else
-    Console.WriteLine("Number of quart for out point is " + quart);
+    Console.WriteLine("Number of quart for out point is " + quart);*/
 
 // Задача1. Вводим номер четверти координат, на вывод определяем диапазон чисел. 
 // Например: вводим №1, на ввод "х больше 0 и y больше 0"
 
-/* void QuarterNumber(int quart)
+void QuarterNumber(int quart)
 {
     if(quart == 1) Console.WriteLine("x больше 0, y больше 0");
     if(quart == 2) Console.WriteLine("x меньше 0, y больше 0");
@@ -33,7 +33,7 @@ else
 Console.Write("Input quarter: ");
 int quart = Convert.ToInt32(Console.ReadLine());
 
-QuarterNumber(quart);*/
+QuarterNumber(quart);
 // === или ===
 /*void QuarterNumber(int x)
 {
