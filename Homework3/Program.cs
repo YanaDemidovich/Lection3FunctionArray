@@ -24,6 +24,27 @@ if (num == -1)
 else
     Console.WriteLine(n1+""+n2+""+n3+""+n4+""+n5+""+" " + "является палиндромом ");*/
 
+// более правильный вариант
+
+void Palindrom()
+{
+Console.Write("Введите число ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number < 10000 | number > 99999)
+{
+    Console.WriteLine("Число не входит в диапазон, введите 5-значное число");
+}
+else if (number % 10 == number / 10000 && (number % 100) / 10 == (number / 1000) % 10)
+{
+    Console.WriteLine("Число является палиндроном");
+}
+else 
+{
+Console.WriteLine("Число не является палиндроном");
+}
+}
+Palindrom();
+
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит
 // расстояние между ними в 3D пространстве.
