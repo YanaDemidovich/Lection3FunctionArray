@@ -51,7 +51,7 @@ QuarterNumber( x);*/
 
 // Задача 2. Принимаем число n, а на вывод квадраты чисел от 1 до введенного числа n.
 
-void Kvadrat(int n)
+/*void Kvadrat(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -61,11 +61,11 @@ void Kvadrat(int n)
 
 Console.Write("Input number: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Kvadrat(n);
+Kvadrat(n);*/
 
 // Задача 3. Найти расстояние между двумя точками А и В в плоскости.
 
-/*double Pifagor(double x1, double y1, double x2, double y2)
+double Pifagor(double x1, double y1, double x2, double y2)
 
 {
     double gipotenuza = Math.Sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
